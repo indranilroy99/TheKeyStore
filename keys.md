@@ -1,0 +1,367 @@
+## VMWARE WORKSTATIONM PRO 17
+```
+MC60H-DWHD5-H80U9-6V85M-8280D
+4A4RR-813DK-M81A9-4U35H-06KND
+NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
+JU090-6039P-08409-8J0QH-2YR7F
+4Y09U-AJK97-089Z0-A3054-83KLA
+4C21U-2KK9Q-M8130-4V2QH-CF810
+HY45K-8KK96-MJ8E0-0UCQ4-0UH72
+JC0D8-F93E4-HJ9Q9-088N6-96A7F
+NG0RK-2DK9L-HJDF8-1LAXP-1ARQ0
+0U2J0-2E19P-HJEX1-132Q2-8AKK6
+4U612-DN31H-MJEJ0-0V0Z4-978HD
+5G44H-ACH50-0J4C9-1VC5P-CY0QD
+JC000-8G047-MJDF1-0H3E6-8QR5F
+JV2NU-0XL5N-0J4Q8-0T0E6-8GH56
+JZ6E0-4R1E0-HJ1Q0-1R8NH-3AK28
+0Z48K-4X29Q-MJE80-113GK-C7K3A
+HF4H0-46K80-MJ8D9-1KAZP-CKK12
+NY69H-2N05P-HJ170-1V1ZM-CG222
+4C45A-D8J0H-HJ5T0-1T25H-92A76
+0Z4H2-0WK9K-4JE10-0T9G6-9C8M4
+5F0TK-A5J05-MJDU9-103ZP-2GUL0
+HY0W0-8NK11-HJ4D8-02AE2-1GH54
+JV4RK-4Y29N-MJ5F8-12CXP-8L836
+5F4RU-D5351-4J8V1-0U2X2-06078
+1Y2R0-AHJ9P-4J8L0-1997P-C3056
+HZ0TA-DX280-0J0D0-00AZ2-8FA56
+0Z4WU-AZ04L-0J919-1C9EK-9QALD
+4U4JR-6ML9Q-4JDT0-0CAZ2-8CHQ8
+```
+
+## VMWARE FUSION PRO 13
+```
+4A4RR-813DK-M81A9-4U35H-06KND
+NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
+4C21U-2KK9Q-M8130-4V2QH-CF810
+MC60H-DWHD5-H80U9-6V85M-8280D
+JU090-6039P-08409-8J0QH-2YR7F
+4Y09U-AJK97-089Z0-A3054-83KLA
+4521H-0AK1N-480Q3-0U3R0-A4RL0
+```
+
+## PARALLELS BUSINESS ACTIVATION KEY
+```
+6YDASE-890T7S-E5YFS6-54F6YW-4780JY
+390349-032409-342340-932902-390693
+```
+## Windows Server 2022 Datacenter: WX4NM-KYWYW-QJJR4-XV3QB-6VM33
+## Windows Server 2022 Standard: VDYBN-27WPP-V4HQT-9VMD4-VMK7H
+## Windows Server 2019 Datacenter: WMDGN-G9PQG-XVVXX-R3X43-63DFG
+## Windows Server 2019 Standard: N69G4-B89J2-4G8F4-WWYCC-J464C
+## Windows Server 2019 Essentials: WVDHN-86M7X-466P6-VHXV7-YY726
+## Windows Server 2016 Datacenter: CB7KF-BWN84-R7R2Y-793K2-8XDDG
+## Windows Server 2016 Standard: WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
+## Windows Server 2016 Essentials: JCKRF-N37P4-C2D82-9YXRT-4M63B
+## Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+## Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
+## Home Single Language: 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+## Home Country Specific: PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
+## Professional: W269N-WFGWX-YVC9B-4J6C9-T83GX
+## Professional N: MH37W-N47XK-V7XM9-C7227-GCQG9
+## Education: NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+## Education N: 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+## Enterprise: NPPR9-FWDCX-D2C8J-H872K-2YT43
+## Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+
+
+## ACTIVATION STEPS 
+ 
+## For Windows 10
+
+### Step 1 - Open PowerShell or Command Prompt as administrator
+### Step 2 - Install KMS client key
+``` 
+slmgr /ipk your_license_key
+```
+### Step 3 - Set KMS machine address
+``` 
+slmgr /skms kms_server
+
+Replace kms_server with the real KMS server address (by online search). For now, the working KMS server is kms9.msguides.com.
+```
+### Step 4 - Activate your Windows
+``` 
+slmgr /ato
+```
+
+## For Windows Server
+
+### Step 1 - Open PowerShell or Command Prompt as administrator
+### Step 2 - Convert Windows Server Evaluation to retail edition
+```
+To get the available editions:
+
+DISM /Online /Get-TargetEditions
+
+To set your Windows Server to a higher edition:
+
+DISM /online /Set-Edition:ServerStandard /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula
+```
+### Step 3 - Install KMS client key
+```
+slmgr /ipk your_license_key
+Replace your_license_key with following volumn license keys according to Windows Edition:
+```
+### Step 4 - Set KMS machine address
+```
+slmgr /skms kms_server
+Replace kms_server with the real KMS server address (by online search). For now, the working KMS server is kms9.msguides.com.
+```
+### Step 5 - Activate your Windows
+```
+slmgr /ato
+```
+
+## Script to activate (open cmd.exe as Administrator):
+
+2016 x32:
+cscript "c:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs" /sethst:IP_OR_FQDN_OF_PRIV_OR_PUBL_KMS_SRV
+cscript "c:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs" /inpkey:GVLK_KEY_OF_YOUR_PRODUCT
+cscript "c:\Program Files (x86)\Microsoft Office\Office16\ospp.vbs" /act
+
+2016 x64:
+cscript "c:\Program Files\Microsoft Office\Office16\ospp.vbs" /sethst:IP_OR_FQDN_OF_PRIV_OR_PUBL_KMS_SRV
+cscript "c:\Program Files\Microsoft Office\Office16\ospp.vbs" /inpkey:GVLK_KEY_OF_YOUR_PRODUCT
+cscript "c:\Program Files\Microsoft Office\Office16\ospp.vbs" /act
+
+2010 x32/x64, 2013 x32/x64, 2019 x32/x64, 2021 x32/x64 -- just seek for ospp.vbs file and do as in 2016
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+GVLK KEYS:
+
+2010:
+
+Office Professional Plus 2010
+VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB
+
+Office Standard 2010
+V7QKV-4XVVR-XYV4D-F7DFM-8R6BM
+
+Office Home and Business 2010
+D6QFG-VBYP2-XQHM7-J97RH-VVRCK
+
+Project Professional 2010
+YGX6F-PGV49-PGW3J-9BTGG-VHKC6
+
+Project Standard 2010
+4HP3K-88W3F-W2K3D-6677X-F9PGB
+
+Visio Premium 2010
+D9DWC-HPYVV-JGF4P-BTWQB-WX8BJ
+
+Visio Professional 2010
+7MCW8-VRQVK-G677T-PDJCM-Q8TCP
+
+Visio Standard 2010
+767HD-QGMWX-8QTDB-9G3R2-KHFGJ
+
+Access 2010
+V7Y44-9T38C-R2VJK-666HK-T7DDX
+
+Excel 2010
+H62QG-HXVKF-PP4HP-66KMR-CW9BM
+
+InfoPath 2010
+K96W8-67RPQ-62T9Y-J8FQJ-BT37T
+
+OneNote 2010
+Q4Y4M-RHWJM-PY37F-MTKWH-D3XHX
+
+Outlook 2010
+7YDC2-CWM8M-RRTJC-8MDVC-X3DWQ
+
+PowerPoint 2010
+RC8FX-88JRY-3PF7C-X8P67-P4VTT
+
+Publisher 2010
+BFK7F-9MYHM-V68C7-DRQ66-83YTP
+
+SharePoint Workspace 2010
+QYYW6-QP4CB-MBV6G-HYMCJ-4T3J4
+
+Word 2010
+HVHB3-C6FV7-KQX9W-YQG79-CRY7T
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2013:
+
+Office 2013 Professional Plus
+YC7DK-G2NP3-2QQC3-J6H88-GVGXT
+
+Office 2013 Standard
+KBKQT-2NMXY-JJWGP-M62JB-92CD4
+
+Project 2013 Professional
+FN8TT-7WMH6-2D4X9-M337T-2342K
+
+Project 2013 Standard
+6NTH3-CW976-3G3Y2-JK3TX-8QHTT
+
+Visio 2013 Professional
+C2FG9-N6J68-H8BTJ-BW3QX-RM3B3
+
+Visio 2013 Standard
+J484Y-4NKBF-W2HMG-DBMJC-PGWR7
+
+Access 2013
+NG2JY-H4JBT-HQXYP-78QH9-4JM2D
+
+Excel 2013
+VGPNG-Y7HQW-9RHP7-TKPV3-BG7GB
+
+InfoPath 2013
+DKT8B-N7VXH-D963P-Q4PHY-F8894
+
+Lync 2013
+2MG3G-3BNTT-3MFW9-KDQW3-TCK7R
+
+OneNote 2013
+TGN6P-8MMBC-37P2F-XHXXK-P34VW
+
+Outlook 2013
+QPN8Q-BJBTJ-334K3-93TGY-2PMBT
+
+PowerPoint 2013
+4NT99-8RJFH-Q2VDH-KYG2C-4RD4F
+
+Publisher 2013
+PN2WF-29XG2-T9HJ7-JQPJR-FCXK4
+
+Word 2013
+6Q7VD-NX8JD-WJ2VH-88V73-4GBJ7
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2016:
+
+Office Professional Plus 2016
+XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+
+Office Standard 2016
+JNRGM-WHDWX-FJJG3-K47QV-DRTFM
+
+Project Professional 2016
+YG9NW-3K39V-2T3HJ-93F3Q-G83KT
+
+Project Standard 2016
+GNFHQ-F6YQM-KQDGJ-327XX-KQBVC
+
+Visio Professional 2016
+PD3PC-RHNGV-FXJ29-8JK7D-RJRJK
+
+Visio Standard 2016
+7WHWN-4T7MP-G96JF-G33KR-W8GF4
+
+Access 2016
+GNH9Y-D2J4T-FJHGG-QRVH7-QPFDW
+
+Excel 2016
+9C2PK-NWTVB-JMPW8-BFT28-7FTBF
+
+OneNote 2016
+DR92N-9HTF2-97XKM-XW2WJ-XW3J6
+
+Outlook 2016
+R69KK-NTPKF-7M3Q4-QYBHW-6MT9B
+
+Powerpoint 2016
+J7MQP-HNJ4Y-WJ7YM-PFYGF-BY6C6
+
+Publisher 2016
+F47MM-N3XJP-TQXJ9-BP99D-8K837
+
+Skype 2016
+869NQ-FJ69K-466HW-QYCP2-DDBV6
+
+Word 2016
+WXY84-JN2Q9-RBCCQ-3Q3J3-3PFJ6
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2019:
+
+Office Professional Plus 2019
+NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
+
+Office Standard 2019
+6NWWJ-YQWMR-QKGCB-6TMB3-9D9HK
+
+Project Professional 2019
+B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B
+
+Project Standard 2019
+C4F7P-NCP8C-6CQPT-MQHV9-JXD2M
+
+Visio Professional 2019
+9BGNQ-K37YR-RQHF2-38RQ3-7VCBB
+
+Visio Standard 2019
+7TQNQ-K3YQQ-3PFH7-CCPPM-X4VQ2
+
+Access 2019
+9N9PT-27V4Y-VJ2PD-YXFMF-YTFQT
+
+Excel 2019
+TMJWT-YYNMB-3BKTF-644FC-RVXBD
+
+Outlook 2019
+7HD7K-N4PVK-BHBCQ-YWQRW-XW4VK
+
+PowerPoint 2019
+RRNCX-C64HY-W2MM7-MCH9G-TJHMQ
+
+Publisher 2019
+G2KWX-3NW6P-PY93R-JXK2T-C9Y9V
+
+Skype for Business 2019
+NCJ33-JHBBY-HTK98-MYCV8-HMKHJ
+
+Word 2019
+PBX3G-NWMT6-Q7XBW-PYJGG-WXD33
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2021:
+
+Office LTSC Professional Plus 2021
+FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
+
+Office LTSC Standard 2021
+KDX7X-BNVR8-TXXGX-4Q7Y8-78VT3
+
+Project Professional 2021
+FTNWT-C6WBT-8HMGF-K9PRX-QV9H8
+
+Project Standard 2021
+J2JDC-NJCYY-9RGQ4-YXWMH-T3D4T
+
+Visio LTSC Professional 2021
+KNH8D-FGHT4-T8RK3-CTDYJ-K2HT4
+
+Visio LTSC Standard 2021
+MJVNY-BYWPY-CWV6J-2RKRT-4M8QG
+
+Access LTSC 2021
+WM8YG-YNGDD-4JHDC-PG3F4-FC4T4
+
+Excel LTSC 2021
+NWG3X-87C9K-TC7YY-BC2G7-G6RVC
+
+Outlook LTSC 2021
+C9FM6-3N72F-HFJXB-TM3V9-T86R9
+
+PowerPoint LTSC 2021
+TY7XF-NFRBR-KJ44C-G83KF-GX27K
+
+Publisher LTSC 2021
+2MW9D-N4BXM-9VBPG-Q7W6M-KFBGQ
+
+Skype for Business LTSC 2021
+HWCXN-K3WBT-WJBKY-R8BD9-XK29P
+
+Word LTSC 2021
+TN8H9-M34D3-Y64V9-TR72V-X79KV
